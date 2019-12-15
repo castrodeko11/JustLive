@@ -1,0 +1,48 @@
+
+
+
+
+
+
+
+
+
+
+.container {
+	margin: 0 auto;
+	max-width: 40rem;
+	width: 90%
+}
+.row {
+	*zoom: 1
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both
+}
+header {
+	padding: 2rem 0;
+	background-color: #f7f7f7;
+	text-align: center
+}
+header p {
+	text-align: center
+}
+.example-image-link {
+	display: inline-block;
+	padding: 4px;
+	margin: 0 0.5rem 1rem 0.5rem;
+	background-color: #fff;
+	line-height: 0;
+
+}
+.example-image-link:hover {
+	background-color: #4ae
+}
+.example-image {
+	width: 10rem;
+	height: 10rem;
+
+
+}
